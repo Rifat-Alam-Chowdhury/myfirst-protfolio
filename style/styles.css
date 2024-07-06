@@ -1,0 +1,149 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+  
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: top left , bottom right;
+    background-color: #FFF8F3;
+    
+   
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+
+}
+
+.nav-titile{
+    font-weight: bolder;
+    font-size: 15px;
+    margin-left: 100px;
+
+}
+
+.name-color{
+    color: aqua;
+}
+nav  li {
+    list-style: none;
+    margin-right: 50px;
+   
+
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+   
+}
+
+.btn-work{
+    background-color: aqua;
+    font-size: 14px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border-style: dashed;
+    padding: 20px 15px;
+}
+
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+.HI{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about-me{
+    background-color: #FFF8F3;
+    
+    margin: 100px 100px;
+    padding: 50px 50px;
+   
+}
+.inner-about{
+
+    background-color: white;
+    padding: 150px 150px ;
+    margin: 50px 50px;
+    font-size: 30px;
+}
+
+.about-center{
+    text-align: center;
+}
+
+.about-low  {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    
+
+}
+
+.about-low a{
+    text-decoration: none;
+
+    color: rgb(36, 163, 167);
+}
+
+
+.border{
+    margin: 100px 100px;
+    padding: 50px 50px;
+
+}
+
+.skill-container{
+    display: flex;
+    gap: 40px;
+    margin: 50px;
+  
+  
+}
+
+
+.exp{
+
+    font-size: 28px;
+    
+}
+.skill{
+
+    margin:30px;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0px 6px 50px 0;
+
+}
